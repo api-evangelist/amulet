@@ -1,7 +1,18 @@
 aid: amulet
 name: Amulet
-description: Amulet is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Amulet is an agentic AI platform for post-sales and customer success teams,
+  backed by Y Combinator (Summer 2026). It connects to a company's existing
+  stack — CRM, support desk, product analytics, calls, and email — reads every
+  ticket, call, and usage trend across the entire book of business, and puts AI
+  agents to work monitoring account health and surfacing risk, renewal,
+  expansion, and adoption signals with the supporting evidence attached. Teams
+  can ask natural-language questions about any account (in-app or from Slack),
+  deploy scheduled agents from templates for renewals, onboarding, and QBRs, and
+  audit every agent run, with anything customer-facing held for human approval.
+  As of this profile Amulet does not publish a public developer API, SDKs, or API
+  documentation; this record captures the company's public web surface (product,
+  pricing, legal) as a network stub.
 url: https://raw.githubusercontent.com/api-evangelist/amulet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,52 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://amulet.so/amulet-mark.png
 tags:
 - Company
+- Customer Success
+- Post-Sales
+- Artificial Intelligence
+- AI Agents
+- Customer Retention
+- Churn Prevention
+- Revenue Expansion
+- SaaS
 apis: []
+common:
+- type: Website
+  url: https://amulet.so
+- type: Pricing
+  url: https://amulet.so/pricing
+- type: TermsOfService
+  url: https://amulet.so/terms
+- type: PrivacyPolicy
+  url: https://amulet.so/privacy
+- type: Login
+  url: https://app.amulet.so
+- type: Demo
+  url: https://calendly.com/varun-amulet/30min
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
