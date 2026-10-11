@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "amulet",
+    "captured_at": "2026-10-11T141826",
+    "source_url": "https://amulet.so",
+    "source_type": "Website",
+    "file": "amulet-2026-10-11T141826.png",
+    "bytes": 203754,
+    "capture": "playwright-local"
+  }
+]
